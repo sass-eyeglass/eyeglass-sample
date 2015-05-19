@@ -2,9 +2,13 @@
 
 var path = require("path");
 
-module.exports = function(/*eyeglass, sass*/) {
+module.exports = function(eyeglass, sass) {
   return {
     sassDir: path.join(__dirname, "sass"),
-    functions: require("./custom-functions")
+    functions: {
+      "hello($name)": function(name, done) {
+        done(sass.types.String('"Why hello, ' + name + '"'));
+      }
+    }
   };
 };

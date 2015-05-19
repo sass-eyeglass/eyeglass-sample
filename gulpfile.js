@@ -4,7 +4,7 @@ var gulp = require("gulp");
 var eslint = require("gulp-eslint");
 var config = require("eyeglass-dev-eslint");
 
-gulp.task("lint", depends, function() {
+gulp.task("lint", function() {
   return gulp.src(["*.js"])
       .pipe(eslint(config))
       .pipe(eslint.formatEach("stylish", process.stderr))
