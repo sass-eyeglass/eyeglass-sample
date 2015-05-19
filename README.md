@@ -23,3 +23,6 @@ Will return a string containing "Why hello, $name". Use this any time your `cont
 ## Sass
 ### .sassy <= creates Sass pink as a color
 Whenever you need that good Sass color, just call on the `.sassy` class.
+
+# Make Your Own Eyeglass Module
+Want to make your own module for Eyeglass? Check out the [yeoman generator](https://github.com/sass-eyeglass/generator-eyeglass)
