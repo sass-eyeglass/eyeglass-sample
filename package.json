@@ -1,6 +1,6 @@
 {
   "name": "eyeglass-sample",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Sample Eyeglass Module",
   "main": "eyeglass-exports.js",
   "scripts": {
@@ -16,9 +16,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/sass-eyeglass/eyeglass-sample.git"
-  },
-  "_OPTIONAL_eyeglass": {
-    "exports": "index.js"
   },
   "devDependencies": {
     "eslint": "^0.14.1",
