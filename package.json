@@ -1,0 +1,32 @@
+{
+  "name": "eyeglass-sample",
+  "version": "0.0.1",
+  "description": "Sample Eyeglass Module",
+  "main": "eyeglass-exports.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "The eyeglass team and contributors",
+    "url": "https://github.com/sass-eyeglass/eyeglass/graphs/contributors"
+  },
+  "keywords": ["sass", "eyeglass-module"],
+  "license": "Apache License 2.0",
+  "README": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sass-eyeglass/eyeglass-sample.git"
+  },
+  "_OPTIONAL_eyeglass": {
+    "exports": "index.js"
+  },
+  "devDependencies": {
+    "eslint": "^0.14.1",
+    "eyeglass-dev-eslint": "^1.0.1",
+    "gulp": "^3.8.11",
+    "gulp-eslint": "0.4.0",
+    "gulp-mocha": "^2.0.0",
+    "mocha": "^2.1.0",
+    "should": ">= 0.0.1"
+  }
+}
