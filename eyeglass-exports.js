@@ -7,7 +7,7 @@ module.exports = function(eyeglass, sass) {
     sassDir: path.join(__dirname, "sass"),
     functions: {
       "hello($name)": function(name, done) {
-        done(sass.types.String('"Why hello, ' + name + '"'));
+        done(sass.types.String('"Why hello, ' + name.getValue() + '"'));
       }
     }
   };
