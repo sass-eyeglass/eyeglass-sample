@@ -1,6 +1,6 @@
 {
   "name": "eyeglass-sample",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Sample Eyeglass Module",
   "main": "eyeglass-exports.js",
   "scripts": {
